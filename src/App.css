@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-size: 62.5%;
+  background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, #e1e4ff 100%);
 }
 
 .App-logo {
@@ -15,12 +17,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 2rem;
   color: white;
 }
 
