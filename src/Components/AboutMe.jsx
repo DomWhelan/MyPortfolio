@@ -10,9 +10,9 @@ export default function AboutMe() {
       <ul>
         <li>Exercising</li>
         <li>Playing Sports</li>
+        <li>Spending time with my children</li>
         <li>Playing Guitar</li>
         <li>Gaming</li>
-        <li></li>
       </ul>
       <hr />
       <h3>My Story</h3>

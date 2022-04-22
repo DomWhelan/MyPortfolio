@@ -23,29 +23,52 @@
 .fira {
   font-family: "Fira Code", monospace;
 }
+.slideIn1 {
+  animation: ease-in;
+  animation-delay: 2s;
+}
+
 .pic1 {
   position: absolute;
-  left: 6%;
+  left: 10%;
   top: 40%;
   border: 2px solid white;
+  animation-delay: 0.5s;
 }
 .pic2 {
   position: absolute;
-  left: 12%;
+  left: 22%;
   top: 55%;
   border: 2px solid white;
+  animation-delay: 0.75s;
 }
 .pic3 {
   position: absolute;
-  left: 18%;
+  left: 34%;
   top: 70%;
   border: 2px solid white;
+  animation-delay: 1s;
 }
 .pic4 {
   position: absolute;
-  left: 32%;
+  left: 50%;
   top: 40%;
   border: 2px solid white;
+  animation-delay: 1.25s;
+}
+.pic5 {
+  position: absolute;
+  left: 62%;
+  top: 55%;
+  border: 2px solid white;
+  animation-delay: 1.5s;
+}
+.pic6 {
+  position: absolute;
+  left: 74%;
+  top: 70%;
+  border: 2px solid white;
+  animation-delay: 1.75s;
 }
 .projDsp {
   background-color: antiquewhite;
@@ -53,4 +76,15 @@
   border: 2px solid grey;
   border-radius: 12px;
   box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.3);
+}
+.projDsp img {
+  margin-left: 10%;
+  width: 12rem;
+  height: 8rem;
+}
+.s1 {
+  display: none;
+}
+.s2 {
+  display: none;
 }
