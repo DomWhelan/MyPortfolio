@@ -4,38 +4,51 @@ import { NavLink, Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div className="navbar navbar-nav">
-      <section className="navbarTitle">
-        <span>Logo?</span>
-        <span className="title">{"<My_Portfolio>"}</span>
-      </section>
+    <div>
+      <div className="navbar d-flex">
+        <span className="title fira">{"<My_Portfolio>"}</span>
+      </div>
+      <div className="links">
+        <Link
+          to="/"
+          className="fira mt-1"
+          style={{ color: "black", textDecoration: "none" }}
+        >
+          {"<Home>"}
+        </Link>
 
-      <ul className="navbarLinks">
-        <li>
-          <Link
-            to="/projects"
-            style={{ color: "azure" }}
-            activestyle={{ color: "blue" }}
-          >
-            {"<Projects>"}
-          </Link>
-        </li>
-        <li>
-          <Link to="/experience" style={{ color: "azure" }}>
-            {"<Experience>"}
-          </Link>
-        </li>
-        <li>
-          <Link to="/education" style={{ color: "azure" }}>
-            {"<Education>"}
-          </Link>
-        </li>
-        <li>
-          <Link to="/aboutme" style={{ color: "azure" }}>
-            {"<AboutMe>"}
-          </Link>
-        </li>
-      </ul>
+        <Link
+          to="/projects"
+          className="fira mt-1"
+          style={{ color: "black", textDecoration: "none" }}
+        >
+          {"<Projects>"}
+        </Link>
+
+        <Link
+          to="/experience"
+          className="fira mt-1"
+          style={{ color: "black", textDecoration: "none" }}
+        >
+          {"<Experience>"}
+        </Link>
+
+        <Link
+          to="/education"
+          className="fira mt-1"
+          style={{ color: "black", textDecoration: "none" }}
+        >
+          {"<Education>"}
+        </Link>
+
+        <Link
+          to="/aboutme"
+          className="fira mt-1"
+          style={{ color: "black", textDecoration: "none" }}
+        >
+          {"<AboutMe>"}
+        </Link>
+      </div>
     </div>
   );
 }
